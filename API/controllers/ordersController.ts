@@ -4,7 +4,7 @@ import { BaseApiContext } from 'API/baseApiContext';
 const baseApiContext = new BaseApiContext();
 
 export class OrdersController {
-    readonly ordersPath = "orders";
+    readonly ordersPath = "ENSEK/orders";
 
     async getAllOrders(): Promise<APIResponse> {
       const context = await baseApiContext.getContext();

@@ -1,5 +1,5 @@
 import {test} from '@playwright/test';
-import {OrderSteps} from "../../Steps/orderSteps";
+import {OrderSteps} from "../../steps/orderSteps";
 
 const orderSteps = new OrderSteps();
 

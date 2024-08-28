@@ -35,4 +35,23 @@ export class EnergyAction {
             }   
         }
     }
+
+    async getEnergyQty(energyType: EnergyTypes): Promise<number>{
+        let energyBody = await this.getEnergyBody();
+        
+        switch(energyType){
+            case EnergyTypes.Electric: {
+                return energyBody.electric.quantity_of_units
+            }
+            case EnergyTypes.Gas: {
+                return energyBody.gas.quantity_of_units
+            }
+            case EnergyTypes.Nuclear: {
+                return energyBody.nuclear.quantity_of_units
+            }
+            case EnergyTypes.Oil: {
+                return energyBody.oil.quantity_of_units
+            }   
+        }
+    }
 }

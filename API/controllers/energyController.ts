@@ -4,10 +4,10 @@ import { BaseApiContext } from 'API/baseApiContext';
 const baseApiContext = new BaseApiContext();
 
 export class EnergyController {
-    readonly energyPath = "energy";
+    readonly energyPath = "ENSEK/energy";
 
     async getEnergy(): Promise<APIResponse> {
       const context = await baseApiContext.getContext();
-      return await context.get(`${this.energyPath}`); 
+      return await context.get(`/${this.energyPath}`); 
     }
 }
