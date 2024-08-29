@@ -1,10 +1,8 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="1.5929879999999539">
-<testsuite name="API\tests\orders\ordersValidation.spec.ts" timestamp="2024-08-28T20:00:21.258Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.185" errors="0">
-<testcase name="Checking how many orders were created before the current date" classname="API\tests\orders\ordersValidation.spec.ts" time="0.185">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="48786.166843">
+<testsuite name="API\tests\orders\ordersValidation.spec.ts" timestamp="2024-08-28T20:00:51.112Z" hostname="chromium" tests="1" failures="0" skipped="0" time="48784.205" errors="0">
+<testcase name="Checking how many orders were created before the current date" classname="API\tests\orders\ordersValidation.spec.ts" time="48784.205">
 <system-out>
 <![CDATA[The number of orders created before the current date is 35
-
-[[ATTACHMENT|test-results\API-tests-orders-ordersVal-7937f-ted-before-the-current-date-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>
